@@ -4,5 +4,7 @@ public class Car extends Vehicle{
         super(100, "Car");
         ageToDrive = 18;
         consumption = 10;
+
     }
+
 }
