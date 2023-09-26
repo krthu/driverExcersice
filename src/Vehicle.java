@@ -1,12 +1,12 @@
 
 
 public abstract class Vehicle {
-    protected int miles;
+    private int miles;
     private Driver driver;
 
     protected int consumption;
 
-    int ageToDrive;
+    protected int ageToDrive;
 
     private String name;
 
