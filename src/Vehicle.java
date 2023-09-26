@@ -27,7 +27,7 @@ public abstract class Vehicle {
     }
 
     public void drive(){
-        if(!isDriverSet()){
+        if(!isDriverSet()){ // Should change this around
             System.out.println(name + " didn´t drive - there´s no driver");
         }else {
             miles -= consumption;
